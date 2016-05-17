@@ -1,10 +1,8 @@
 package org.jiangtao.customview.widget;
 
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.os.Build;
 import android.util.AttributeSet;
 import android.view.View;
 import org.jiangtao.customview.R;
@@ -50,6 +48,6 @@ public class CustomViewLine extends View {
   @Override protected void onDraw(Canvas canvas) {
     super.onDraw(canvas);
     canvas.drawColor(getResources().getColor(R.color.colorPrimaryDark));
-    canvas.drawLine(0, 100, getWidth(), 100, mPaint);
+    canvas.drawLine(0, getHeight(), getWidth(), getHeight(), mPaint);
   }
 }
