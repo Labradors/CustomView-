@@ -16,18 +16,10 @@
       app:theme="@style/AppTheme"
       />
 
-  <org.jiangtao.customview.widget.CustomViewLine
-      android:id="@+id/custom_line"
-      android:layout_width="match_parent"
-      android:layout_height="1dp"
-      android:layout_marginLeft="@dimen/activity_horizontal_margin"
-      android:layout_marginTop="@dimen/activity_horizontal_margin"
-      />
 
-  <org.jiangtao.customview.widget.CustomViewCircle
-      android:id="@+id/custom_circle"
-      android:layout_width="wrap_content"
+  <Button
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginTop="@dimen/activity_horizontal_margin"
-      />
+      android:id="@+id/btn_calculater"
+      android:text="@string/btn_caltulator"/>
 </LinearLayout>
